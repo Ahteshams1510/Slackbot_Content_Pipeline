@@ -1,0 +1,15 @@
+slack_bolt==1.19.3
+slack_sdk==3.20.2
+flask==2.2.5
+sentence-transformers==2.2.2
+scikit-learn==1.2.2
+pandas==2.2.3
+numpy==1.26.4
+beautifulsoup4==4.12.2
+requests==2.31.0
+reportlab==4.0
+python-dotenv==1.0.0
+openai==1.0.0
+psycopg2-binary==2.9.7
+supabase==0.12.1
+gunicorn==20.1.0
