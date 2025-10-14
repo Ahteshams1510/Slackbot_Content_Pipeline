@@ -1,15 +1,17 @@
-slack_bolt==1.26.0
-slack_sdk==3.20.2
-flask==2.2.5
-sentence-transformers==2.2.2
-#scikit-learn==1.2.2
-pandas==2.2.3
-numpy==1.26.4
-beautifulsoup4==4.12.2
-requests==2.31.0
-reportlab==4.0
-python-dotenv==1.0.0
-openai==1.0.0
-psycopg2-binary==2.9.7
+# ---------- Core Dependencies ----------
+Flask==3.0.3
+slack-bolt==1.26.0
+slack-sdk==3.33.0
+requests==2.32.3
+reportlab==4.2.4
+
+# ---------- Optional / Utility ----------
+python-dotenv==1.0.1
+
+# ---------- Database & Vector Store ----------
 supabase==2.4.0
-gunicorn==20.1.0
+
+# ---------- ML / Data (optional safe versions) ----------
+scikit-learn==1.5.2
+numpy==1.26.4
+pandas==2.2.3
