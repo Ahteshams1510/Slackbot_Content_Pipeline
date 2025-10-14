@@ -1,19 +1,18 @@
-# ---- Core Web & Slack ----
-flask==2.3.3
+# ---- Web Framework ----
+Flask==2.3.3
 slack_bolt==1.17.0
 requests==2.31.0
+python-dotenv==1.0.1
 
 # ---- AI / NLP ----
-huggingface_hub==0.19.4
 sentence-transformers==2.2.2
-scikit-learn==1.2.2
+huggingface_hub==0.19.4
 numpy==1.24.4
 pandas==2.0.3
+scikit-learn==1.2.2
 
 # ---- PDF / Report ----
 reportlab==3.6.13
 
-# ---- Database / Misc ----
+# ---- Database / Optional ----
 supabase==2.0.4
-python-dotenv==1.0.1
-
