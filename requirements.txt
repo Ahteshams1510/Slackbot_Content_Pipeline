@@ -1,17 +1,7 @@
-# ---------- Core Dependencies ----------
-Flask==3.0.3
-slack-bolt==1.26.0
-slack-sdk==3.33.0
-requests==2.32.3
-reportlab==4.2.4
+flask==2.3.3
+slack_bolt==1.18.0
+reportlab==4.1.0
+requests==2.31.0
+supabase==2.0.3
 
-# ---------- Optional / Utility ----------
-python-dotenv==1.0.1
 
-# ---------- Database & Vector Store ----------
-supabase==2.4.0
-
-# ---------- ML / Data (optional safe versions) ----------
-scikit-learn==1.5.2
-numpy==1.26.4
-pandas==2.2.3
